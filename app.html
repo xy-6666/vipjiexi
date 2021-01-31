@@ -51,24 +51,6 @@
 </style>
 </head>
 <body background="http://r.photo.store.qq.com/psc?/V54IoSSf1dnvEK0N1Uu330LFsP2oSvav/TmEUgtj9EK6.7V8ajmQrEI8yn6yv7EOF7xKtGHcJr3sRvztkmFJ0nLnJFGSXD*18OamolZZ3mIaE4NqGtVBPicH*EO7WNS5HpFk*gKtPjQA!/r" style="background-repeat:no-repeat; background-size:100% 100%; background-attachment:fixed;">
-<!-- 你的HTML代码 -->
-<!-- <div class="dropdown" style="float:left; top:50px; left:80px;">
-  <button class="dropbtn">视频网站列表</button>
-  <div class="dropdown-content" style="left:0;">
-    <a href="https://www.iqiyi.com" target="_blank">爱奇艺</a>
-    <a href="https://www.youku.com" target="_blank">优酷视频</a>
-    <a href="https://v.qq.com" target="_blank">腾讯视频</a>
-    <a href="https://www.le.com" target="_blank">乐视视频</a>
-    <a href="https://www.miguvideo.com" target="_blank">咪咕视频</a>
-    <a href="https://tv.sohu.com" target="_blank">搜狐视频</a>
-    <a href="http://www.pptv.com" target="_blank">PPTV视频</a>
-    <a href="https://www.bilibili.com" target="_blank">哔哩哔哩</a>
-    <a href="https://www.wasu.cn" target="_blank">华数TV</a>
-    <a href="https://www.mgtv.com" target="_blank">芒果TV</a>
-    <a href="https://www.ixigua.com" target="_blank">西瓜视频</a>
-    <a href="https://www.1905.com" target="_blank">1905电影</a>
-  </div>
-</div> -->
 <div class="layui-container">
     <div class="layui-row" style="height:45px">
     </div>
@@ -78,15 +60,10 @@
               <div class="layui-col-md2">
                 <div class="layui-inline">
                   <select id="interface" lay-verify="">
-                    <option value="0">万能接口1</option>
-                    <option value="1">万能接口2</option>
-                    <option value="2">万能接口3</option>
-                    <option value="3">万能接口4</option>
-                    <option value="4">万能接口5</option>
-                    <option value="5">万能接口6</option>
-                    <option value="6">万能接口7</option>
-                    <option value="7">万能接口8</option>
-                    <option value="8">万能接口9</option>
+                    <option value="0">线路1</option>
+                    <option value="1">线路2</option>
+                    <option value="2">线路3</option>
+                    <option value="3">线路4</option>
                   </select>
                 </div>
               </div>
@@ -102,21 +79,17 @@
           </div>
         </form>
   </div>
-
-<!--视频-->
   <br>
         <div class="layui-row" style="height:600px">
         <iframe  id="player" src="https://z1.m1907.cn" width="100%" height="100%" allowTransparency="true" allowfullscreen="true" frameborder="0" scrolling="no"></iframe>
         </div>
 <br>
-<!-- 	text-align: center;
-	border-top:1px solid #aaaaaa; -->
 
 </div>
 	<div style="width: 100%; text-align: center; border-top: 1px solid #aaaaaa; ">
-  <p align="center" style="color:white">支持腾讯，优酷，爱奇艺，PPTV, 搜狐，芒果，乐视，M3U8等VIP视频解析! 仅支持学习交流，勿用非法用途!本站不承担任何责任!</p>
+  <p align="center" style="color:white; font-size: 10px;">支持全网VIP视频! 仅供学习交流，勿用非法用途!Xy影视不承担任何责任!</p>
   <br>
-  <p align="center" style="color:white">© 2021 xyvip.ml All Rights Reserved.</p>
+  <p align="center" style="color:white; font-size: 10px;">© 2021 xyvip.ml All Rights Reserved.</p>
 	</div>
 <script src="https://www.layuicdn.com/layui/layui.js"></script>
 <script src="https://upcdn.b0.upaiyun.com/libs/jquery/jquery-2.0.2.min.js"></script>
@@ -143,14 +116,6 @@ $(document).ready(function(){
              $('#player').attr('src',"https://www.1717yun.com/jiexi/?url="+address);
          }else if(itemValue1 == 4){
              $('#player').attr('src',"https://api.52wyb.com/webcloud/?v="+address);
-         }else if(itemValue1 == 5){
-             $('#player').attr('src',"https://jx.147g.cc/?url="+address);
-         }else if(itemValue1 == 6){
-             $('#player').attr('src',"https://jx.618g.com/?url="+address);
-         }else if(itemValue1 == 7){
-             $('#player').attr('src',"https://www.8090.la/api/?url="+address);
-         }else if(itemValue1 == 8){
-             $('#player').attr('src',"https://www.playm3u8.cn/jiexi.php?url="+address);
          }
       };
   });
